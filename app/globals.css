@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.8;
+  color: #2d3748;
+  background-color: #ffffff;
+}
+
+a {
+  color: #4a5568;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #2d3748;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background-color: #f7fafc;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.site-title a {
+  color: #2d3748;
+}
+
+.site-description {
+  font-size: 16px;
+  color: #718096;
+}
+
+/* Main */
+.main {
+  padding: 60px 0;
+  min-height: calc(100vh - 300px);
+}
+
+/* Footer */
+.footer {
+  background-color: #f7fafc;
+  border-top: 1px solid #e2e8f0;
+  padding: 30px 0;
+  text-align: center;
+  color: #718096;
+  font-size: 14px;
+}
+
+/* Page Title */
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Month Atmosphere */
+.month-atmosphere {
+  background-color: #f7fafc;
+  border-left: 4px solid #4a5568;
+  padding: 24px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.month-atmosphere h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.month-atmosphere p {
+  color: #4a5568;
+  line-height: 1.8;
+}
+
+/* Type Cards */
+.type-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.type-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 24px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.type-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.type-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.type-card-icon {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.type-card-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.type-card-role {
+  font-size: 14px;
+  color: #718096;
+  margin-bottom: 16px;
+}
+
+.type-card-link {
+  display: inline-block;
+  color: #4a5568;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.type-card-link:hover {
+  background-color: #f7fafc;
+  border-color: #4a5568;
+}
+
+/* Type Detail */
+.type-detail-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.type-detail-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.type-detail-name {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.type-detail-role {
+  font-size: 18px;
+  color: #718096;
+}
+
+.type-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.type-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.type-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 32px 0 16px;
+}
+
+.type-content p {
+  margin-bottom: 20px;
+  line-height: 1.9;
+}
+
+.type-content blockquote {
+  background-color: #f7fafc;
+  border-left: 4px solid #4a5568;
+  padding: 20px 24px;
+  margin: 24px 0;
+  font-style: italic;
+  color: #4a5568;
+}
+
+.type-content blockquote p {
+  margin: 0;
+}
+
+/* Back Link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  color: #2d3748;
+}
+
+/* Month List */
+.month-list {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.month-list li {
+  margin-bottom: 12px;
+}
+
+.month-list a {
+  display: block;
+  padding: 16px;
+  background-color: #f7fafc;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.month-list a:hover {
+  background-color: #edf2f7;
+}
+
+/* Latest Month Link */
+.latest-month {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.latest-month-link {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #4a5568;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.latest-month-link:hover {
+  background-color: #2d3748;
+  color: #ffffff;
+}
