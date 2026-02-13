@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import Link from 'next/link';
 import { getSiteConfig } from '@/lib/data';
 import AdBanner from './components/AdBanner';
@@ -21,11 +20,10 @@ export default function RootLayout({
     <html lang="ja">
       <head>
         {siteConfig.adsenseEnabled && (
-          <Script
+          <script
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsensePublisherId}`}
             crossOrigin="anonymous"
-            strategy="afterInteractive"
           />
         )}
       </head>
