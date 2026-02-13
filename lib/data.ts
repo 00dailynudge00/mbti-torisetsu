@@ -8,6 +8,8 @@ export interface SiteConfig {
   siteDescription: string;
   defaultYear: number;
   defaultMonth: number;
+  adsensePublisherId: string;
+  adsenseEnabled: boolean;
 }
 
 export interface TypeInfo {

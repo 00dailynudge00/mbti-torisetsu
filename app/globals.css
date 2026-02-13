@@ -266,3 +266,11 @@ a:hover {
   background-color: #2d3748;
   color: #ffffff;
 }
+
+/* Ad Container */
+.ad-container {
+  text-align: center;
+  margin: 32px 0;
+  min-height: 50px;
+  overflow: hidden;
+}

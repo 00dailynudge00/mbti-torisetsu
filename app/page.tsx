@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getSiteConfig, getAvailableYearMonths } from '@/lib/data';
+import AdBanner from './components/AdBanner';
 
 export default function HomePage() {
   const siteConfig = getSiteConfig();
@@ -23,6 +24,8 @@ export default function HomePage() {
           style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }}
         />
       </div>
+
+      {siteConfig.adsenseEnabled && <AdBanner format="rectangle" />}
 
       <div className="latest-month">
         <Link

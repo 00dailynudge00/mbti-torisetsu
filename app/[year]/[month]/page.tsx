@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import {
+  getSiteConfig,
   getMonthlyAtmosphere,
   getMonthlyTypes,
   getAllTypes,
   getAvailableYearMonths,
 } from '@/lib/data';
+import AdBanner from '../../components/AdBanner';
 
 type Props = {
   params: Promise<{
@@ -35,6 +37,7 @@ export default async function MonthPage({ params }: Props) {
   const yearNum = parseInt(year);
   const monthNum = parseInt(month);
 
+  const siteConfig = getSiteConfig();
   const atmosphere = getMonthlyAtmosphere(yearNum, monthNum);
   const types = getMonthlyTypes(yearNum, monthNum);
   const allTypesData = getAllTypes();
@@ -77,6 +80,12 @@ export default async function MonthPage({ params }: Props) {
           })}
         </div>
       </div>
+
+      {siteConfig.adsenseEnabled && (
+        <div style={{ marginTop: '40px' }}>
+          <AdBanner format="horizontal" />
+        </div>
+      )}
     </div>
   );
 }

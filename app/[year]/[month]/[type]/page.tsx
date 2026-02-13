@@ -1,12 +1,14 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import {
+  getSiteConfig,
   getMonthlyContent,
   getTypeInfo,
   parseMarkdown,
   getMonthlyTypes,
   getAvailableYearMonths,
 } from '@/lib/data';
+import AdBanner from '../../../components/AdBanner';
 
 type Props = {
   params: Promise<{
@@ -49,6 +51,7 @@ export default async function TypePage({ params }: Props) {
   const yearNum = parseInt(year);
   const monthNum = parseInt(month);
 
+  const siteConfig = getSiteConfig();
   const typeInfo = getTypeInfo(type);
   const content = getMonthlyContent(yearNum, monthNum, type);
 
@@ -90,6 +93,12 @@ export default async function TypePage({ params }: Props) {
       </div>
 
       <div className="type-content" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+
+      {siteConfig.adsenseEnabled && (
+        <div style={{ marginTop: '40px' }}>
+          <AdBanner format="rectangle" />
+        </div>
+      )}
 
       <div style={{ marginTop: '60px', textAlign: 'center' }}>
         <Link href={`/${year}/${month}/`} className="back-link">
