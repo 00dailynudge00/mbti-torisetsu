@@ -267,6 +267,162 @@ a:hover {
   color: #ffffff;
 }
 
+/* Fortune Panel */
+.fortune-panel {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  background: linear-gradient(135deg, #faf5ff 0%, #f0f4ff 50%, #f0fdf4 100%);
+  border: 1px solid #e9d5ff;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.fortune-panel-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #6b21a8;
+  margin-bottom: 24px;
+  letter-spacing: 0.1em;
+}
+
+.fortune-keyword {
+  text-align: center;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9d5ff;
+}
+
+.fortune-keyword-label {
+  display: block;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.fortune-keyword-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6b21a8;
+  letter-spacing: 0.05em;
+}
+
+.fortune-meters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9d5ff;
+}
+
+.fortune-meter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fortune-meter-label {
+  font-size: 14px;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.fortune-stars {
+  letter-spacing: 2px;
+}
+
+.star-filled {
+  color: #f59e0b;
+  font-size: 16px;
+}
+
+.star-empty {
+  color: #d1d5db;
+  font-size: 16px;
+}
+
+.fortune-lucky {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9d5ff;
+}
+
+.fortune-lucky-item {
+  text-align: center;
+}
+
+.fortune-lucky-label {
+  display: block;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 6px;
+}
+
+.fortune-lucky-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.fortune-compatible {
+  text-align: center;
+}
+
+.fortune-compatible-label {
+  display: block;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.fortune-compatible-link {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #ffffff;
+  border: 1px solid #e9d5ff;
+  border-radius: 24px;
+  font-weight: 600;
+  color: #6b21a8 !important;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.fortune-compatible-link:hover {
+  background-color: #faf5ff;
+  transform: translateY(-2px);
+  color: #6b21a8 !important;
+}
+
+.fortune-compatible-icon {
+  margin-right: 6px;
+}
+
+.fortune-compatible-sublabel {
+  font-size: 12px;
+  color: #9ca3af;
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+@media (max-width: 480px) {
+  .fortune-panel {
+    padding: 24px 20px;
+  }
+
+  .fortune-meters {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .fortune-lucky {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
 /* Ad Container */
 .ad-container {
   text-align: center;

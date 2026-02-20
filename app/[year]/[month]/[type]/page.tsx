@@ -4,11 +4,13 @@ import {
   getSiteConfig,
   getMonthlyContent,
   getTypeInfo,
+  getFortuneData,
   parseMarkdown,
   getMonthlyTypes,
   getAvailableYearMonths,
 } from '@/lib/data';
 import AdBanner from '../../../components/AdBanner';
+import FortunePanel from '../../../components/FortunePanel';
 
 type Props = {
   params: Promise<{
@@ -54,6 +56,8 @@ export default async function TypePage({ params }: Props) {
   const siteConfig = getSiteConfig();
   const typeInfo = getTypeInfo(type);
   const content = getMonthlyContent(yearNum, monthNum, type);
+  const fortune = getFortuneData(yearNum, monthNum, type);
+  const compatibleTypeInfo = fortune ? getTypeInfo(fortune.compatibleType) : null;
 
   if (!typeInfo || !content) {
     return (
@@ -91,6 +95,23 @@ export default async function TypePage({ params }: Props) {
           </p>
         </div>
       </div>
+
+      {fortune && (
+        <FortunePanel
+          keyword={fortune.keyword}
+          love={fortune.love}
+          work={fortune.work}
+          health={fortune.health}
+          money={fortune.money}
+          luckyColor={fortune.luckyColor}
+          luckyItem={fortune.luckyItem}
+          compatibleType={fortune.compatibleType}
+          compatibleTypeIcon={compatibleTypeInfo?.icon}
+          compatibleTypeLabel={compatibleTypeInfo?.label}
+          year={year}
+          month={month}
+        />
+      )}
 
       <div className="type-content" dangerouslySetInnerHTML={{ __html: htmlContent }} />
 

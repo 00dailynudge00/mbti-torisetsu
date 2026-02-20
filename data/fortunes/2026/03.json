@@ -1,0 +1,162 @@
+{
+  "INTJ": {
+    "keyword": "戦略",
+    "love": 3,
+    "work": 5,
+    "health": 3,
+    "money": 4,
+    "luckyColor": "ダークグリーン",
+    "luckyItem": "お気に入りのプレイリスト",
+    "compatibleType": "ENFP"
+  },
+  "INTP": {
+    "keyword": "ひらめき",
+    "love": 3,
+    "work": 4,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "インディゴ",
+    "luckyItem": "面白い本",
+    "compatibleType": "ENTJ"
+  },
+  "ENTJ": {
+    "keyword": "委ねる",
+    "love": 3,
+    "work": 4,
+    "health": 3,
+    "money": 5,
+    "luckyColor": "ワインレッド",
+    "luckyItem": "名刺入れ",
+    "compatibleType": "INTP"
+  },
+  "ENTP": {
+    "keyword": "完了",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "ターコイズ",
+    "luckyItem": "チェックリストアプリ",
+    "compatibleType": "INFJ"
+  },
+  "INFJ": {
+    "keyword": "軽やか",
+    "love": 4,
+    "work": 3,
+    "health": 4,
+    "money": 3,
+    "luckyColor": "藤色",
+    "luckyItem": "春色のストール",
+    "compatibleType": "ENTP"
+  },
+  "INFP": {
+    "keyword": "いたわり",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "さくらピンク",
+    "luckyItem": "お気に入りの紅茶",
+    "compatibleType": "ENFJ"
+  },
+  "ENFJ": {
+    "keyword": "甘える",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 4,
+    "luckyColor": "アイボリー",
+    "luckyItem": "ちょっといいボディクリーム",
+    "compatibleType": "INFP"
+  },
+  "ENFP": {
+    "keyword": "立ち止まる",
+    "love": 3,
+    "work": 3,
+    "health": 4,
+    "money": 3,
+    "luckyColor": "レモンイエロー",
+    "luckyItem": "カフェのモーニング",
+    "compatibleType": "INTJ"
+  },
+  "ISTJ": {
+    "keyword": "労い",
+    "love": 3,
+    "work": 5,
+    "health": 4,
+    "money": 4,
+    "luckyColor": "キャメル",
+    "luckyItem": "春物の靴",
+    "compatibleType": "ESFP"
+  },
+  "ISFJ": {
+    "keyword": "自分優先",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "ベビーブルー",
+    "luckyItem": "フェイスパック",
+    "compatibleType": "ESTP"
+  },
+  "ESTJ": {
+    "keyword": "休息",
+    "love": 3,
+    "work": 4,
+    "health": 3,
+    "money": 5,
+    "luckyColor": "ネイビー",
+    "luckyItem": "マッサージの予約",
+    "compatibleType": "ISFP"
+  },
+  "ESFJ": {
+    "keyword": "境界線",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "ピーチ",
+    "luckyItem": "新しいポーチ",
+    "compatibleType": "ISTP"
+  },
+  "ISTP": {
+    "keyword": "マイペース",
+    "love": 3,
+    "work": 4,
+    "health": 5,
+    "money": 3,
+    "luckyColor": "オリーブ",
+    "luckyItem": "お気に入りの動画チャンネル",
+    "compatibleType": "ESFJ"
+  },
+  "ISFP": {
+    "keyword": "感じる",
+    "love": 5,
+    "work": 3,
+    "health": 4,
+    "money": 3,
+    "luckyColor": "ラベンダー",
+    "luckyItem": "花束",
+    "compatibleType": "ESTJ"
+  },
+  "ESTP": {
+    "keyword": "切り替え",
+    "love": 3,
+    "work": 4,
+    "health": 4,
+    "money": 4,
+    "luckyColor": "ブラック",
+    "luckyItem": "新しいサングラス",
+    "compatibleType": "ISFJ"
+  },
+  "ESFP": {
+    "keyword": "選ぶ",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "コーラル",
+    "luckyItem": "春の新作コスメ",
+    "compatibleType": "ISTJ"
+  }
+}

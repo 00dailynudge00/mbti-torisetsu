@@ -33,6 +33,17 @@ export interface MonthData {
   description: string;
 }
 
+export interface FortuneData {
+  keyword: string;
+  love: number;
+  work: number;
+  health: number;
+  money: number;
+  luckyColor: string;
+  luckyItem: string;
+  compatibleType: string;
+}
+
 // データディレクトリのパス
 const dataDir = path.join(process.cwd(), 'data');
 const contentDir = path.join(process.cwd(), 'content');
@@ -90,6 +101,19 @@ export function getMonthlyAtmosphere(year: number, month: number): string {
   }
 
   return `${year}年は「${yearData.theme}」。${yearData.description} ${monthData.name}（${month}月）は「${monthData.theme}」がテーマです。${monthData.description}`;
+}
+
+// 占いデータを取得
+export function getFortuneData(year: number, month: number, type: string): FortuneData | null {
+  try {
+    const monthStr = String(month).padStart(2, '0');
+    const filePath = path.join(dataDir, 'fortunes', String(year), `${monthStr}.json`);
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const allFortunes = JSON.parse(fileContents);
+    return allFortunes[type] || null;
+  } catch {
+    return null;
+  }
 }
 
 // 特定月のコンテンツ一覧を取得

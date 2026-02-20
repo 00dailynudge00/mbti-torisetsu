@@ -1,0 +1,162 @@
+{
+  "INTJ": {
+    "keyword": "整理",
+    "love": 3,
+    "work": 4,
+    "health": 3,
+    "money": 4,
+    "luckyColor": "ネイビー",
+    "luckyItem": "革のブックカバー",
+    "compatibleType": "ENFP"
+  },
+  "INTP": {
+    "keyword": "発見",
+    "love": 2,
+    "work": 4,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "スモーキーグレー",
+    "luckyItem": "お気に入りのペン",
+    "compatibleType": "ENTJ"
+  },
+  "ENTJ": {
+    "keyword": "準備",
+    "love": 3,
+    "work": 5,
+    "health": 3,
+    "money": 4,
+    "luckyColor": "ボルドー",
+    "luckyItem": "新しい手帳",
+    "compatibleType": "INTP"
+  },
+  "ENTP": {
+    "keyword": "けじめ",
+    "love": 3,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "オレンジ",
+    "luckyItem": "ノイズキャンセリングイヤホン",
+    "compatibleType": "INFJ"
+  },
+  "INFJ": {
+    "keyword": "手放す",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "ラベンダー",
+    "luckyItem": "アロマキャンドル",
+    "compatibleType": "ENTP"
+  },
+  "INFP": {
+    "keyword": "自分時間",
+    "love": 3,
+    "work": 3,
+    "health": 4,
+    "money": 3,
+    "luckyColor": "くすみピンク",
+    "luckyItem": "お気に入りのカフェのドリンク",
+    "compatibleType": "ENFJ"
+  },
+  "ENFJ": {
+    "keyword": "ゆるむ",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "クリームイエロー",
+    "luckyItem": "ふわふわの靴下",
+    "compatibleType": "INFP"
+  },
+  "ENFP": {
+    "keyword": "深呼吸",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "ミントグリーン",
+    "luckyItem": "ハンドクリーム",
+    "compatibleType": "INTJ"
+  },
+  "ISTJ": {
+    "keyword": "区切り",
+    "love": 3,
+    "work": 4,
+    "health": 4,
+    "money": 4,
+    "luckyColor": "ベージュ",
+    "luckyItem": "ふかふかの新しいタオル",
+    "compatibleType": "ESFP"
+  },
+  "ISFJ": {
+    "keyword": "おやすみ",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "パステルブルー",
+    "luckyItem": "いい香りの入浴剤",
+    "compatibleType": "ESTP"
+  },
+  "ESTJ": {
+    "keyword": "見直し",
+    "love": 3,
+    "work": 5,
+    "health": 3,
+    "money": 4,
+    "luckyColor": "チャコールグレー",
+    "luckyItem": "ちょっといいコーヒー豆",
+    "compatibleType": "ISFP"
+  },
+  "ESFJ": {
+    "keyword": "頼る",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "コーラルピンク",
+    "luckyItem": "お気に入りのマグカップ",
+    "compatibleType": "ISTP"
+  },
+  "ISTP": {
+    "keyword": "没頭",
+    "love": 3,
+    "work": 4,
+    "health": 4,
+    "money": 3,
+    "luckyColor": "カーキ",
+    "luckyItem": "ワイヤレスイヤホン",
+    "compatibleType": "ESFJ"
+  },
+  "ISFP": {
+    "keyword": "直感",
+    "love": 4,
+    "work": 3,
+    "health": 4,
+    "money": 3,
+    "luckyColor": "テラコッタ",
+    "luckyItem": "お気に入りのリップ",
+    "compatibleType": "ESTJ"
+  },
+  "ESTP": {
+    "keyword": "充電",
+    "love": 3,
+    "work": 3,
+    "health": 4,
+    "money": 4,
+    "luckyColor": "ブラック",
+    "luckyItem": "新しいスニーカー",
+    "compatibleType": "ISFJ"
+  },
+  "ESFP": {
+    "keyword": "味わう",
+    "love": 4,
+    "work": 3,
+    "health": 3,
+    "money": 3,
+    "luckyColor": "シャンパンゴールド",
+    "luckyItem": "ご褒美スイーツ",
+    "compatibleType": "ISTJ"
+  }
+}
